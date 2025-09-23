@@ -1,39 +1,72 @@
 📊 HR Analytics Dashboard
-🚀 Overview
+📖 Project Overview
 
-The HR Analytics Dashboard provides actionable insights into employee attrition, demographics, performance, and retention. It helps HR leaders and business executives make data-driven decisions to reduce turnover, improve workforce planning, and enhance employee engagement.
+An interactive HR Analytics Dashboard built in Power BI to uncover workforce insights.
 
-📌 Business Problem
+Workflow covers:
 
-High employee attrition impacts productivity, increases recruitment and training costs, and disrupts workforce stability. Organizations need visibility into the key drivers of attrition and workforce patterns to take proactive measures.
+🧹 Data Cleaning & Transformation → handled missing values, standardized formats, built calculated measures in Power Query & DAX
 
-🎯 Objectives
+📊 Analysis & KPIs → attrition, demographics, tenure, salary distribution, performance trends
 
-Track workforce demographics and diversity distribution
-Identify attrition trends across roles, tenure, departments, and salaries
-Measure employee performance and retention rates
-Provide leadership with insights to optimize HR strategies
+📈 Business Insights → attrition hotspots, retention drivers, workforce diversity, performance patterns
 
-📊 Key Outcomes / KPIs
+⚙️ Data Preparation
 
-Total Employees: 1,470
-Attrition Rate: 16.1%
-Average Tenure: 3.5 years
+✅ Removed nulls & inconsistencies in HR dataset
+
+✅ Standardized age, salary, and tenure fields
+
+✅ Built DAX measures for attrition %, average tenure, income, and performance ratings
+
+✅ Created relationships to enable drill-down across demographics, roles, and departments
+
+📊 Workforce Analysis
+🔹 Demographics
+
+Gender split: Male 60% | Female 40%
+
 Average Age: 36 years
-Gender Diversity: Male – 882 (60%), Female – 588 (40%)
+
+🔹 Attrition Trends
+
+Overall attrition: 16.1%
+
+Highest attrition in Sales (39%) and R&D (28%)
+
+Employees with 5+ years tenure → 88% retention
+
+🔹 Compensation
+
 Average Monthly Income: $6,500
-High Attrition Departments: Sales – 39%, R&D – 28%
-Retention Rate (Tenure > 5 years): 88%
-Performance Ratings:
-Exceeds Expectations – 21%
-Meets Expectations – 65%
-Below Expectations – 14%
 
-📈 Business Impact
+Salary-based attrition analysis across ranges
 
-$2.5M annual savings possible with just a 5% reduction in attrition
-30% turnover reduction achievable by focusing on early-career employees
-Improved innovation & collaboration through balanced workforce diversity
+🔹 Performance
+
+Exceeds Expectations → 21%
+
+Meets Expectations → 65%
+
+Below Expectations → 14%
+
+💡 Key Insights
+
+🔑 $2.5M annual savings possible with just a 5% attrition reduction
+
+🎯 Early-career employees show highest turnover risk → targeted retention needed
+
+👩‍💼 Gender balance at 60:40 → scope to strengthen diversity initiatives
+
+🏢 Long-tenure employees (5+ years) have strong loyalty (88% retention)
+
+🛠 Tools & Techniques
+
+📊 Power BI → Dashboard & visualization
+
+🔢 DAX & Power Query → Data cleaning & measure building
+
+📑 Excel/CSV → Dataset source
 
 📂 Repository Structure
 📁 HR-Analytics
@@ -42,23 +75,12 @@ Improved innovation & collaboration through balanced workforce diversity
  ┣ 📄 README.md             # Project documentation
  ┗ 📂 data (optional)       # Sample dataset if allowed
 
-🖼 Dashboard Preview
+🚀 Outcomes
 
-![HR Dashboard](https://github.com/user-attachments/assets/3361b2e4-6df6-40fb-893e-91dc1a344736)
+✔ Built an interactive dashboard to monitor HR KPIs
 
-🛠 Tools Used
+✔ Identified attrition drivers by role, tenure, salary, and department
 
-Power BI – Visualization & Dashboarding
-DAX & Power Query – Data cleaning and calculated measures
-Excel/CSV – HR dataset
+✔ Delivered employee retention insights for cost savings
 
-🔮 Future Improvements
-
-Predictive modeling to identify employees at risk of attrition
-Industry-based compensation benchmarking
-Real-time employee engagement tracking
-
-👤 Author
-
-Kartik Gupta
-📩 kartik.gupta709@gmail.com | 🔗 linkedin.com/in/kartikgupta199
+✔ Supported leadership with data-driven HR decisions
