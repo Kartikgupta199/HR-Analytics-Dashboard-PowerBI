@@ -45,11 +45,11 @@ An interactive HR Analytics Dashboard built in Power BI to uncover workforce ins
 - 📑 Excel/CSV → Dataset source
 
 ## 📂 Repository Structure
-📁 HR-Analytics
- ┣ 📄 HR Analytics.pbix     # Power BI dashboard
- ┣ 📁 images                # Dashboard screenshots
- ┣ 📄 README.md             # Project documentation
- ┗ 📂 data (optional)       # Sample dataset if allowed
+- 📁 HR-Analytics
+- ┣ 📄 HR Analytics.pbix     # Power BI dashboard
+- ┣ 📁 images                # Dashboard screenshots
+- ┣ 📄 README.md             # Project documentation
+- ┗ 📂 data (optional)       # Sample dataset if allowed
 
 ## 🚀 Outcomes
 - ✔ Built an interactive dashboard to monitor HR KPIs
