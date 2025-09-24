@@ -46,7 +46,8 @@ An interactive HR Analytics Dashboard built in Power BI to uncover workforce ins
 
 ## Screenshot of Dashboard
 
-![HR Dashboard](https://github.com/user-attachments/assets/e147942f-97d4-4711-84ee-b5706b884857)
+![HR Analytics](https://github.com/user-attachments/assets/53c39230-3057-466f-875c-12615a2498a0)
+
 
 
 ## 📂 Repository Structure
